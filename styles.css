@@ -200,7 +200,7 @@ h2,
   padding-top: 20px;
 }
 .projects-grid {
-  /* padding-top: 40px; */
+  padding-top: 30px;
 }
 .project-content {
   justify-content: space-between;
@@ -244,6 +244,14 @@ a {
 }
 .projects-h2-text {
   margin-bottom: 10px;
+}
+.projects-hr-lines{
+
+  width: 110px;
+  height: 2px;
+  background: linear-gradient(90deg, rgb(135, 77, 197) 0%, rgb(79, 166, 220));
+  margin-top: 5px;
+  margin-bottom: 7px;
 }
 /* about section */
 .about-section {
@@ -339,8 +347,8 @@ a {
 }
 
 .card i {
-  font-size: 2rem; /* Adjust icon size */
-  margin-bottom: 10px; /* Add space between icon and text */
+  font-size: 2rem; 
+  margin-bottom: 10px; 
 }
 
 @media (max-width: 991px) {
@@ -389,7 +397,7 @@ a {
     display: block;
   }
   .about-github-link {
-    margin: 20px; /* Add margin for spacing */
+    margin: 20px; 
   }
 }
 

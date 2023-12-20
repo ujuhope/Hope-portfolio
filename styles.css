@@ -295,6 +295,7 @@ a {
 }
 
 .about-github-link a:hover {
+  border: none;
   background: linear-gradient(90deg, rgb(135, 77, 197) 0%, rgb(79, 166, 220));
 }
 
@@ -351,27 +352,7 @@ a {
     margin: 20px; /* Add margin for spacing */
   }
 
-  .about-github-link a {
-    text-decoration: none; /* Remove underline */
-    display: inline-block;
-    padding: 10px 15px; /* Add padding for better clickability */
-    background-color: #24292e; /* GitHub's default color */
-    color: #ffffff; /* Text color */
-    border-radius: 5px; /* Rounded corners */
-    transition: background-color 0.3s ease; /* Smooth transition */
-
-    /* Center the icon vertically */
-    display: flex;
-    align-items: center;
-  }
-
-  .about-github-link a:hover {
-    background-color: #181c20; /* Darker color on hover */
-  }
-
-  .about-github-link i {
-    margin-left: 5px; /* Add space between text and icon */
-  }
+  
 }
 
 /* body {

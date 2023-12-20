@@ -287,7 +287,7 @@ a {
   /* background-color: #24292e; */
   color: #ffffff;
   /* border: none; */
-  border: 1px solid  rgb(135, 77, 197);
+  border: 1px solid rgb(135, 77, 197);
 
   border-radius: 5px;
   transition: background-color 0.3s ease;
@@ -301,6 +301,13 @@ a {
 
 .about-github-link i {
   margin-left: 5px;
+}
+.my-title p {
+  font-family: "Space Grotesk", sans-serif;
+  color: #ecf0f3;
+  font-size: 20px;
+  line-height: 10px;
+  font-weight: 700;
 }
 
 @media (max-width: 991px) {
@@ -351,8 +358,6 @@ a {
   .about-github-link {
     margin: 20px; /* Add margin for spacing */
   }
-
-  
 }
 
 /* body {

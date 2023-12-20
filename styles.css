@@ -173,6 +173,9 @@ body {
 }
 
 /* projects section */
+.projects{
+    margin-top: 25%;
+  }
 
 .projects {
   padding: 0 12% 12%;
@@ -275,9 +278,7 @@ a {
   }
 
   /* projects section */
-  .projects{
-    margin-top: 25%;
-  }
+  
   .prj-title{
     font-size: 20px;
   }
